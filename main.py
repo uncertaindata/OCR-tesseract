@@ -2,7 +2,8 @@ import cv2
 import pytesseract
 from pytesseract import Output
 import re
-
+#use pdf2image to convert pdf to text and then process frame by frame
+# pip3 install pdf2image
 
 from preprocessing import *
 
